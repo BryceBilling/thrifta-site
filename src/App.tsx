@@ -1,6 +1,6 @@
 import { Layout, Typography, Card, Row, Col, Space } from "antd";
-import logoIcon from "./assets/logo.png";
-import logoText from "./assets/thrifta.png";
+import logoIcon from "./assets/logo.webp";
+import logoText from "./assets/thrifta.webp";
 import googlePlayBadge from "./assets/google-play.png";
 
 const { Header, Content, Footer } = Layout;
