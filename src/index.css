@@ -397,6 +397,156 @@ a {
   max-width: none;
 }
 
+.footer-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 1px;
+}
+
+.footer-link:hover {
+  color: #ffffff !important;
+}
+
+/* DSAR page */
+
+.page-header {
+  height: auto !important;
+  padding: 22px 0 !important;
+  background: linear-gradient(135deg,
+      var(--brand) 0%,
+      var(--brand-dark) 100%) !important;
+}
+
+.page-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.page-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.page-brand-icon {
+  width: 36px;
+  height: auto;
+  display: block;
+}
+
+.page-brand-text {
+  width: 110px;
+  height: auto;
+  display: block;
+}
+
+.page-back-link {
+  color: rgba(255, 255, 255, 0.95) !important;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.dsar-section {
+  padding: 40px 0 60px;
+}
+
+.dsar-card {
+  background: linear-gradient(180deg,
+      rgba(220, 239, 240, 0.98),
+      rgba(235, 248, 249, 1));
+  border: 1px solid rgba(18, 180, 192, 0.1);
+  border-radius: 28px;
+  padding: 40px;
+  box-shadow: var(--shadow);
+}
+
+.dsar-title.ant-typography {
+  margin: 0 0 12px !important;
+  color: var(--text) !important;
+  font-size: clamp(1.7rem, 3.4vw, 2.4rem) !important;
+  letter-spacing: -0.03em !important;
+}
+
+.dsar-intro.ant-typography {
+  margin: 0 0 28px !important;
+  color: #31484f !important;
+  font-size: 1rem !important;
+  line-height: 1.8 !important;
+  max-width: 720px;
+}
+
+.dsar-form {
+  max-width: 640px;
+}
+
+.dsar-honeypot {
+  position: absolute !important;
+  left: -9999px;
+}
+
+.dsar-radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dsar-radio {
+  line-height: 1.6;
+}
+
+.dsar-char-count {
+  display: block;
+  margin: -18px 0 24px;
+  text-align: right;
+  color: var(--muted) !important;
+  font-size: 0.85rem;
+}
+
+.dsar-confirm-block {
+  margin: 8px 0 20px;
+}
+
+.dsar-confirm-heading.ant-typography {
+  display: block;
+  margin-bottom: 12px !important;
+  color: var(--text) !important;
+  font-weight: 700 !important;
+}
+
+.dsar-confirm-block .ant-checkbox-wrapper {
+  align-items: flex-start;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.dsar-alert {
+  margin-bottom: 20px;
+}
+
+.dsar-submit-row {
+  margin-bottom: 0;
+}
+
+.dsar-submit-button {
+  background: var(--brand-dark) !important;
+  border: none !important;
+  border-radius: 14px !important;
+  height: 46px !important;
+  padding-inline: 26px !important;
+  font-weight: 700 !important;
+}
+
+@media (max-width: 768px) {
+  .dsar-card {
+    padding: 26px 20px;
+  }
+}
+
 @media (max-width: 992px) {
   .hero-row {
     padding: 28px 0 76px;
